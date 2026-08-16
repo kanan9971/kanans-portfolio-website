@@ -34,22 +34,16 @@ export type Item = {
 
 export const leadership: Item[] = [
   {
-    title: "PwC AI & Cloud Consulting Day",
-    meta: "May 2025 · Selected Attendee",
-    detail:
-      "Hands-on exposure to end-to-end data-analytics consulting — customer segmentation, predictive modelling, generative-AI enablement, and RegTech — applying prompt engineering and AI-governance frameworks to a stablecoin case study.",
-  },
-  {
-    title: "JPMorgan Takeover Day",
-    meta: "Aug 2025 · Selected Participant",
-    detail:
-      "Selected for JPMorgan's immersive program exploring careers across technology and financial services.",
-  },
-  {
     title: "Astrix CanSat Team",
     meta: "Jan 2026 – Present · Main Team",
     detail:
-      "On the main CanSat team representing HKUST at the international competition in the United States (funded by NASA).",
+      "On the main CanSat team representing HKUST at the international competition in the United States (funded by NASA) — designing a satellite payload for atmospheric data collection during descent.",
+  },
+  {
+    title: "Cricket Team, HKUST",
+    meta: "Aug 2026 · Executive Committee Member",
+    detail:
+      "Executive committee member helping run team operations, training, and match logistics for HKUST's Cricket Team.",
   },
   {
     title: "24 Hour Race",

@@ -1,6 +1,6 @@
 "use client";
 
-import { GraduationCap, Cpu, LineChart, Brain } from "lucide-react";
+import { GraduationCap, Cpu, TrendingUp, Brain } from "lucide-react";
 import { Section } from "./ui/Section";
 import { Reveal } from "./ui/Reveal";
 
@@ -8,17 +8,17 @@ const pillars = [
   {
     icon: Brain,
     title: "AI / Machine Learning",
-    body: "LoRA pipelines, RAG systems, fraud modelling, and on-device inference with PyTorch and modern LLM tooling.",
-  },
-  {
-    icon: LineChart,
-    title: "Finance & Consulting",
-    body: "Summer analyst experience, portfolio optimization, FX algorithms, and consulting exposure at PwC & JPMorgan.",
+    body: "LoRA training pipelines, RAG systems, fraud modelling, and on-device inference with PyTorch and modern LLM tooling.",
   },
   {
     icon: Cpu,
     title: "Embedded Systems",
     body: "Real-time C++ firmware and CAN-bus telemetry for HKUST's Red Bird Racing EV team.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Fintech Engineering",
+    body: "Backtested FX signal algorithms, portfolio-optimization models, and production dashboards for market data.",
   },
 ];
 
@@ -31,15 +31,17 @@ export function About() {
             <p>
               I&apos;m a Computer Engineering student at{" "}
               <span className="text-white">HKUST</span> with an extended major in
-              Artificial Intelligence. I like building things end-to-end — from generative-AI
-              platforms and ML models to embedded firmware and full-stack web apps.
+              Artificial Intelligence. I like building things end-to-end — generative-AI
+              platforms, training pipelines, embedded firmware, and the infrastructure
+              that holds it all together.
             </p>
             <p>
-              My work sits where <span className="text-white">engineering meets business</span>:
-              I&apos;ve shipped production apps at a wealth-management firm, analyzed portfolios as a
-              summer analyst, and been selected for programs like{" "}
-              <span className="text-white">JPMorgan Takeover Day</span> and the{" "}
-              <span className="text-white">PwC AI &amp; Cloud Consulting Day</span>.
+              Most recently I architected a <span className="text-white">generative-AI
+              platform</span> at NGMT (Next.js, FastAPI, per-creator LoRA training on GPU),
+              wrote <span className="text-white">real-time C++ firmware</span> for CAN-bus
+              telemetry on HKUST&apos;s EV racing team, and shipped a{" "}
+              <span className="text-white">RAG API</span> and a Chrome-extension legal-AI
+              tool that placed top 8 of 65 at a hackathon.
             </p>
             <p>
               Outside the terminal you&apos;ll find me on the cricket pitch, in the pool, or out

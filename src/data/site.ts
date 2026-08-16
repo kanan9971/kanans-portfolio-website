@@ -2,9 +2,9 @@ export const site = {
   name: "Kanan Suri",
   role: "Computer Engineering + AI @ HKUST",
   tagline:
-    "Building at the intersection of AI, systems, and finance.",
+    "I build AI platforms, embedded systems, and the infra underneath them.",
   blurb:
-    "B.Eng. Computer Engineering student with an extended major in Artificial Intelligence, working across full-stack AI platforms, machine learning, embedded systems, and quantitative finance.",
+    "B.Eng. Computer Engineering student with an extended major in Artificial Intelligence, working across generative-AI infrastructure, ML pipelines, embedded firmware, and full-stack systems.",
   location: "Hong Kong",
   email: "kanan9971@gmail.com",
   phone: "+852 6021 7909",

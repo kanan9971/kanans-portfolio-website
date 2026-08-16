@@ -30,6 +30,16 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "Love 21 Connect",
+    subtitle: "Charity Platform · Morgan Stanley Code to Give Hackathon",
+    award: "Pro-Bono Build, Pitched to Morgan Stanley Engineers",
+    description:
+      "Rebuilt the live site for a Hong Kong charity supporting the Down syndrome, autistic, and neurodiverse community — public volunteering pages, QR-based clock-in with verified hours, recurring donations with automated review, live Instagram updates via webhooks, and AI-assisted resource management.",
+    tags: ["Next.js 14", "Prisma", "Turso", "Webhooks"],
+    github: "https://github.com/mck0124/team13-love21-connect",
+    featured: true,
+  },
+  {
     title: "Credit Card Fraud Detection",
     subtitle: "ML for Payments Risk",
     description:
@@ -46,13 +56,6 @@ export const projects: Project[] = [
     tags: ["SwiftUI", "On-Device ML", "LLM"],
   },
   {
-    title: "Astrix CanSat",
-    subtitle: "NASA-Funded Satellite Payload",
-    description:
-      "A soft-drink-can-sized satellite payload built to collect and transmit atmospheric data during descent — representing HKUST at the international CanSat Competition in the United States.",
-    tags: ["Embedded", "Sensors", "Telemetry", "Hardware"],
-  },
-  {
     title: "Client Websites",
     subtitle: "Freelance / Internship builds",
     description:
@@ -60,21 +63,5 @@ export const projects: Project[] = [
     tags: ["Next.js", "TypeScript", "HTML/CSS", "Vercel"],
     live: "https://mcm-website-seven.vercel.app",
     github: "https://github.com/kanan9971?tab=repositories",
-  },
-  {
-    title: "Forge",
-    subtitle: "Next.js web app",
-    description:
-      "A Next.js application scaffold with the App Router, optimized fonts, and a deploy-ready architecture — used as a base for rapid product prototyping.",
-    tags: ["Next.js", "TypeScript", "React"],
-    github: "https://github.com/kanan9971/forge",
-  },
-  {
-    title: "NeetCode Submissions",
-    subtitle: "DSA practice",
-    description:
-      "An ongoing collection of data-structures & algorithms solutions in C++, worked through NeetCode's problem set to sharpen problem-solving fundamentals.",
-    tags: ["C++", "Algorithms", "Data Structures"],
-    github: "https://github.com/kanan9971/neetcode-submissions",
   },
 ];

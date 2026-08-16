@@ -36,7 +36,7 @@ const meta: Record<string, { icon: LucideIcon; span: string; accent: string }> =
 export function Skills() {
   return (
     <Section id="skills" eyebrow="04 / stack" title="What I build with">
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:auto-rows-[9rem]">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:auto-rows-[minmax(9rem,auto)] lg:grid-flow-dense">
         {skills.map((group, i) => {
           const m = meta[group.label] ?? { icon: Boxes, span: "", accent: "text-accent-soft" };
           const Icon = m.icon;
